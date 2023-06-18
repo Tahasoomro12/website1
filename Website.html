@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0;padding: 0;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+box-sizing: border-box; 
+}
+
+
+header{
+    width: 100%;
+    height: 5vh;
+    background: #fff;
+    box-shadow: 2px 5px 2px rgb(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+position: relative;
+top: 10px;
+left: 90px;
+font-weight: 600;
+}
+
+
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+ul li{
+    margin: 5px;
+    font-weight: 600;
+    position: relative;
+    top: 8px;
+}
+
+ul li a{
+    color: black;
+}
+
+
+.icon{
+display: flex;
+position: relative;
+}
+
+
+
+.icon i {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 3px;
+    right: 119px;
+    top: 5px;
+    display: block;
+}
+
+
+.active{
+display: initial;
+position: relative;
+}
+
+
+
+
+@media(max-width:600px){
+    header{
+        width: 100%;
+    }
+
+ul {
+    width: 50%;
+    right: -133px;
+    display: none;
+    height: 1900%;
+    background: teal;
+    position: relative;
+    top: 328px;
+    text-align: center;
+    display: none;
+    line-height: 34px;
+    text-decoration-line: underline;
+    max-width: 47rem;
+    justify-content: space-between;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+<header>
+    <a href="" class="logo">LoGo</a>
+
+       <ul class="list" id="togle">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Price</a></li>
+            <li><a href="">Feedback</a></li>
+        </ul>
+    
+    <div class="icon" id="togle">
+       <i onclick="hello(this)" class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+    </div>
+</header>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/web.js"></script>
+
+
+
+
+
+</body>
+</html>
